@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.car {
+  width: 600px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+}
+
+button.active {
+  background-color: coral;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 375px;
+  padding: 46px 0 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
